@@ -38,8 +38,8 @@ vector<string> clause_vector;
 int main(){
 
     bool result = false;;
-    ifp = fopen("/Users/rahulagarwal/Desktop/Fall2014/CSCI561/RAHUL_AGARWAL_HW3/input.txt","r");
-    ofp = fopen("/Users/rahulagarwal/Desktop/Fall2014/CSCI561/RAHUL_AGARWAL_HW3/output.txt","w");
+    ifp = fopen("/input.txt","r");
+    ofp = fopen("/output.txt","w");
 
     fscanf(ifp,"%s",&querystring);
     fscanf(ifp,"%d",&noOfClauses);
